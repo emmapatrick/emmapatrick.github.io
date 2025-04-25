@@ -11,6 +11,7 @@ body {
     padding: 20px;
     margin: auto;
     border-radius: 10px;
+    max-width: width - 150px;
   }
 
   h1 {
@@ -43,8 +44,10 @@ body {
   .navbar a::after {
     content: '';
     position: absolute;
-    right: 0;
+    left: 50%;
     bottom: 8px;
+    /* center hover line */
+    transform: translateX(-50%);
     width: 0;
     height: 2px;
     transition: width 0.3s ease;
@@ -53,10 +56,10 @@ body {
 
   .navbar a.active::after {
     /* make permanent underline */
-    width: 100%;
+    width: 80%;
   }
 
   .navbar a:hover::after {
     /* animate hover line upon hover */
-    width: 100%;
+    width: 80%;
   }
