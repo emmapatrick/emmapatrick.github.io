@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #bcafdf;
+    background: #dbd3f0;
     color: #2d163e;
     padding: 25px;
     font-family: verdana;
@@ -16,7 +16,7 @@ body {
 
   .navbar {
     overflow: hidden;
-    background-color: #c5a4cb;
+    background-color: #c3b5e6;
   }
 
   .navbar a {
@@ -25,14 +25,9 @@ body {
     text-align: center;
     padding: 14px;
     font-size: 17px;
+    text-decoration: none;
   }
 
   .navbar a:hover {
-    background-color: #fbf7e7;
-    color: #2d163e;
-  }
-
-  .navbar a:active {
-    background-color: #b5729d;
-    color: #2d163e;
+    text-decoration: underline;
   }
