@@ -6,8 +6,13 @@ body {
     font-family: verdana;
   }
 
-  content {
+  .content {
     background: #e7e1f5;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 900px;
+
   }
 
   h1 {
@@ -21,12 +26,12 @@ body {
   .navbar {
     overflow: hidden;
     background-color: #c3b5e6;
-    position: sticky;
-    align-items: right;
+    border-radius: 10px;
   }
 
   .navbar a {
-    float: left;
+    position: relative;
+    float: right;
     color: #2d163e;
     text-align: center;
     padding: 14px;
@@ -34,6 +39,23 @@ body {
     text-decoration: none;
   }
 
-  .navbar a:hover {
-    text-decoration: underline;
+  /* pseudoelement to add fade in of hover line */
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+  }
+
+  .navbar a.active::after {
+    /* make permanent underline */
+    width: 100%;
+  }
+
+  .navbar a:hover::after {
+    /* animate hover line upon hover */
+    width: 100%;
   }
