@@ -3,7 +3,7 @@ body {
     background: #dbd3f0;
     color: #2d163e;
     padding: 25px;
-    font-family: verdana;
+    font-family: Georgia;
   }
 
   .content {
@@ -12,6 +12,7 @@ body {
     margin: auto;
     border-radius: 10px;
     max-width: width - 150px;
+    padding-top: 200px;
   }
 
   h1 {
