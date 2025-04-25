@@ -11,8 +11,6 @@ body {
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-    max-width: 900px;
-
   }
 
   h1 {
@@ -23,15 +21,17 @@ body {
     font-size: 20px;
   }
 
+  /* navigation bar with various pages */
   .navbar {
     overflow: hidden;
     background-color: #c3b5e6;
     border-radius: 10px;
   }
 
+  /* navbar element */
   .navbar a {
     position: relative;
-    float: right;
+    float: left;
     color: #2d163e;
     text-align: center;
     padding: 14px;
@@ -39,7 +39,7 @@ body {
     text-decoration: none;
   }
 
-  /* pseudoelement to add fade in of hover line */
+  /* pseudo element to add fade in of hover line */
   .navbar a::after {
     content: '';
     position: absolute;
@@ -48,6 +48,7 @@ body {
     width: 0;
     height: 2px;
     transition: width 0.3s ease;
+    background-color: #2d163e;
   }
 
   .navbar a.active::after {
