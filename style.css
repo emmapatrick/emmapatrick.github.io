@@ -6,6 +6,10 @@ body {
     font-family: verdana;
   }
 
+  content {
+    background: #e7e1f5;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -17,6 +21,8 @@ body {
   .navbar {
     overflow: hidden;
     background-color: #c3b5e6;
+    position: sticky;
+    align-items: right;
   }
 
   .navbar a {
