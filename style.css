@@ -1,6 +1,38 @@
 body {
-    background: #000;
-    color: #fff;
+    margin: 0;
+    background: #bcafdf;
+    color: #2d163e;
     padding: 25px;
-    font-family: sans-serif;
+    font-family: verdana;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #c5a4cb;
+  }
+
+  .navbar a {
+    float: left;
+    color: #2d163e;
+    text-align: center;
+    padding: 14px;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #fbf7e7;
+    color: #2d163e;
+  }
+
+  .navbar a:active {
+    background-color: #b5729d;
+    color: #2d163e;
   }
