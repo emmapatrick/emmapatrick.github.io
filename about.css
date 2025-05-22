@@ -16,18 +16,18 @@
     }
 
     h1 {
-        font-size: 40em;
+        font-size: 40px;
         letter-spacing: 2px;
         max-width: (width - 150px) / 2;
     }
 
     h2 {
-        font-size: 30em;
+        font-size: 30px;
         max-width: (width - 150px) / 2;
     }
 
     p {
-        font-size: 25em;
+        font-size: 25px;
         max-width: (width - 150px) / 2;
     }
 
@@ -46,7 +46,7 @@
         text-align: center;
         /* same padding as content for consistency */
         padding: 16px;
-        font-size: 26em;
+        font-size: 26px;
         text-decoration: none;
     }
 
