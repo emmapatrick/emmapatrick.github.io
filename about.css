@@ -1,0 +1,75 @@
+    body {
+        margin: 0;
+        background: #E7DDF4;
+        padding: 25px;
+        font-family: 'Josephin Sans';
+    }
+
+    .content {
+        background: #FFFCFF;
+        padding: 30px;
+        margin: auto;
+        border-radius: 20px;
+        max-width: width - 150px;
+        display: flex;
+        color: #3F3245;
+    }
+
+    h1 {
+        font-size: 40em;
+        letter-spacing: 2px;
+        max-width: (width - 150px) / 2;
+    }
+
+    h2 {
+        font-size: 30em;
+        max-width: (width - 150px) / 2;
+    }
+
+    p {
+        font-size: 25em;
+        max-width: (width - 150px) / 2;
+    }
+
+    /* navigation bar with various pages */
+    .navbar {
+        overflow: hidden;
+        background-color: #FFFCFF;
+        border-radius: 20px;
+    }
+
+    /* navbar element */
+    .navbar a {
+        position: relative;
+        float: left;
+        color: #3F3245;
+        text-align: center;
+        /* same padding as content for consistency */
+        padding: 16px;
+        font-size: 26em;
+        text-decoration: none;
+    }
+
+    /* pseudo element to add fade in of hover line */
+    .navbar a::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 8px;
+        /* center hover line */
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        transition: width 0.3s ease;
+        background-color: #3F3245;
+    }
+
+    .navbar a.active::after {
+        /* make permanent underline */
+        width: 80%;
+    }
+
+    .navbar a:hover::after {
+        /* animate hover line upon hover */
+        width: 80%;
+    }
