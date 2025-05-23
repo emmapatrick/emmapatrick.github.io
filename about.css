@@ -35,6 +35,33 @@
         flex: 1;
     }
 
+    form {
+        margin-top: 30px;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    input, textarea {
+        border: none;
+        border-bottom: 2px solid #6d4b97;
+        padding: 10px;
+        width: 250px;
+        font-size: 16px;
+        background: transparent;
+        outline: none;
+    }
+
+    textarea {
+        width: 520px;
+        height: 100px;
+        resize: none;
+    }
+
     .spacer {
         border-radius: 20px;
         max-width: width - 150px;
