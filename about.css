@@ -11,7 +11,6 @@
         margin: auto;
         border-radius: 20px;
         max-width: width - 150px;
-        display: flex;
         color: #3F3245;
     }
 
@@ -34,7 +33,7 @@
 
     p {
         font-size: 25px;
-        max-width: (width - 150px) / 2;
+        max-width: (width - 350px) / 2;
     }
 
     /* navigation bar with various pages */
