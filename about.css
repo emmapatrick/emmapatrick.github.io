@@ -25,7 +25,6 @@
     }
 
     .profile-image {
-        position: absolute;
         width: 400px;
         height: 400px;
         object-fit: cover;
@@ -33,14 +32,13 @@
     }
 
     .profile-text {
-        position: relative;
         flex: 1;
     }
 
     form {
         width: 100%;
         max-width: 600px;
-        /* margin: 0 auto; */
+        margin: 0 auto;
         margin-top: 30px;
     }
 
