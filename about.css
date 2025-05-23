@@ -25,6 +25,7 @@
     }
 
     .profile-image {
+        position: absolute;
         width: 400px;
         height: 400px;
         object-fit: cover;
@@ -32,6 +33,7 @@
     }
 
     .profile-text {
+        position: relative;
         flex: 1;
     }
 
