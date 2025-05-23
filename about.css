@@ -56,6 +56,17 @@
         outline: none;
     }
 
+    button {
+        margin-top: 20px;
+        padding: 10px 30px;
+        border: 2px solid #6d4b97;
+        border-radius: 20px;
+        background: transparent;
+        color: #6d4b97;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
     textarea {
         width: 520px;
         height: 100px;
