@@ -14,6 +14,20 @@
         color: #3F3245;
     }
 
+    .profile-content {
+        /* flexbox layout */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* gap between left and right sections */
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+
+    .profile-text {
+        flex: 1;
+    }
+
     .spacer {
         border-radius: 20px;
         max-width: width - 150px;
